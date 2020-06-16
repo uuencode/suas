@@ -1,6 +1,6 @@
 <?php
 
-// S.U.A.S. Screenshot - Upload - Annotate - Share
+// SUAS: Screenshot - Upload - Annotate - Share
 // https://github.com/uuencode/suas
 
 // SETTINGS 
