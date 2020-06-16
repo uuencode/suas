@@ -30,7 +30,7 @@ Any shared hosting service with PHP
 
 - Install scrot - scrot is available in all repos; Debian/Ubuntu: `sudo apt install scrot`
 - Put `suas_local.py` in your home directory and make it executable
-- Open `suas_local.php` with a text editor (look for *SETTINGS*)
+- Open `suas_local.py` with a text editor (look for *SETTINGS*)
 	- Set the URL of `suas_remote.php` e.g. `https://WEBSITE.COM/suas/suas_remote.php`
 	- Replace `$upload_key` with the same security string from `suas_remote.php`
 - Set keyboard shortcuts to launch `suas_local.py` (*sel = select area; win = active window*)
