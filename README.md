@@ -1,6 +1,6 @@
 # suas
 
-Fast and handy Linux tool to **S**hot → **U**pload → **A**nnotate → **S**hare screenshots from your Linux desktop
+Fast and handy Linux tool to **S**hoot → **U**pload → **A**nnotate → **S**hare screenshots from your Linux desktop
 
 ![suas demo](/this-is-not-GIF.webp "void")
 
@@ -15,7 +15,7 @@ Any shared hosting service with PHP
 
 ### Local
 
-- Any Linux computer
+- Any Linux computer with Xorg
 - [Scrot](https://en.wikipedia.org/wiki/Scrot) - available in all repos
 
 ## How to install
@@ -44,7 +44,7 @@ Any shared hosting service with PHP
 - `Copy URL` works on SSL hosts only
 
 ### Privacy
-The PHP script loads [MarkerJS](https://markerjs.com/) from CDN. In case you do not trust CloudFlare put the latest minified version in the same folder and adjust accordingly `<script src="https://unpkg.com/markerjs"></script>` in `suas_remote.php`
+The PHP script loads [MarkerJS](https://markerjs.com/) from CDN. In case you do not trust UNPKG and CloudFlare put the latest minified version in the same folder and adjust accordingly `<script src="https://unpkg.com/markerjs"></script>` in `suas_remote.php`
 
 ### Obscurity
 
@@ -54,7 +54,7 @@ The PHP script loads [MarkerJS](https://markerjs.com/) from CDN. In case you do 
 
 ## Credit
 
-All credit for the image processing go to [MarkerJS](https://markerjs.com/) and [Alan Mendelevich](https://ailon.org/)
+All credit for the image processing goes to [MarkerJS](https://markerjs.com/) and [Alan Mendelevich](https://ailon.org/)
 
 ## License
 
