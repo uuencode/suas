@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# SUAS: Screenshot - Upload - Annotate - Share
+# S.U.A.S. Screensot - Upload - Annotate - Share
 # https://github.com/uuencode/suas
 
 # SETTINGS
@@ -30,11 +30,11 @@ if len(sys.argv)>1 and sys.argv[1] == 'win':
 os.system(scrot_args)
 
 # upload
-with open(path_image, 'rb') as img:
-  name_img= os.path.basename(path_image)
-  files= {upload_key: (name_img,img,'multipart/form-data',{'Expires': '0'}) }
-  with requests.Session() as s:
-    r = s.post(upload_url,files=files)
+with open(path_image,'rb') as img:
+	name_img = os.path.basename(path_image)
+	files = {upload_key: (name_img,img,'multipart/form-data',{'Expires':'0'}) }
+	with requests.Session() as s:
+		s.post(upload_url,files=files)
 
 # delete file after upload
 os.remove(path_image)
